@@ -40,6 +40,7 @@
 		A20B92A11B3A282900B436DE /* maxCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maxCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20B92A61B3A282900B436DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20B92A71B3A282900B436DE /* maxCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maxCalculatorTests.m; sourceTree = "<group>"; };
+		A2144E881B56E656006ACDCF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		A22031081B54350A0086F5F7 /* maxCalculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maxCalculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		A22031091B54350B0086F5F7 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +66,7 @@
 		A20B927C1B3A282900B436DE = {
 			isa = PBXGroup;
 			children = (
+				A2144E881B56E656006ACDCF /* MyPlayground.playground */,
 				A20B92871B3A282900B436DE /* maxCalculator */,
 				A20B92A41B3A282900B436DE /* maxCalculatorTests */,
 				A20B92861B3A282900B436DE /* Products */,

@@ -90,29 +90,34 @@ class RootViewController: UIViewController, UITextFieldDelegate {
 
         (fivePlates,fiveWeight) = self.fivePlates(tenWeight)
 
-        var thePlates: Array = [fortFivePlates,thirtFivePlates,twentyFivePlates,tenPlates,fivePlates]
-
-
-
-
-        if fortFivePlates > 12 {
-            fortFivePlates = 12
-        }
-
-        for var i = 0; i < fortFivePlates; i++ {
-            plates[i].image = fortfPlate
-        }
-        for var i = fortFivePlates; i < fortFivePlates+thirtFivePlates; i++ {
-            plates[i].image = thirtfPlate
-        }
-
-
+        var thePlates = [fortFivePlates,thirtFivePlates,twentyFivePlates,tenPlates,fivePlates]
+        configPlates(thePlates)
 
     }
 
-    func configPlates(plates: Array){
+    func configPlates(plates: [Int]){
+        //        [fortFivePlates,thirtFivePlates,twentyFivePlates,tenPlates,fivePlates]
         var platesArray = [0,0,0,0,0,0,0,0,0,0,0,0]
-        if plates[0] > 12
+        //1 is 45 
+        //2 is 35
+        //3 is 25
+        //4 is 10
+        //5 is 5
+
+        //if there are more than 12 45 plates make it so theres only 12 in the array
+        if plates[0] > 12 {
+            for var i = 0; i < platesArray.count; i++ {
+                ++platesArray[i]
+                //return the array
+            }
+        }
+
+
+
+        for var i = 0; i < platesArray.count; i++ {
+            println(++platesArray[i])
+        }
+
     }
 
     func fortyFivePlates(max: Double) -> (Int,Int) {
@@ -171,5 +176,5 @@ class RootViewController: UIViewController, UITextFieldDelegate {
         println("this is the remaining amount of weight \(remainder) \n\n")
         return (plates,remainder)
     }
-    
+
 }
