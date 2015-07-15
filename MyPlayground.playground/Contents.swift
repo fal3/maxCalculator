@@ -14,6 +14,19 @@ for var i = 0; i < platesArray.count; i++ {
 
 
 var plates = [2,0,0,0,2]
-var platesArray = [0,0,0,0,0,0,0,0,0,0,0,0]
+var thePlates = [0,0,0,0,0,0]
 
-
+for var i = 0; i < thePlates.count; i++ {
+    if plates[i] == 2 && i == 0 {
+        ++thePlates[i]
+    } else if plates[i] == 2 && i == 1 {
+        thePlates[i] += 2
+    } else if plates[i] == 2 && i == 2 {
+        thePlates[i] += 3
+    } else if plates[i] == 2 && i == 3 {
+        thePlates[i] += 4
+    } else if plates[i] == 2 && i == 4 {
+        thePlates[i] += 5
+    }
+    println(thePlates)
+}

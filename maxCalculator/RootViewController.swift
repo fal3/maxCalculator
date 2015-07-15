@@ -97,7 +97,7 @@ class RootViewController: UIViewController, UITextFieldDelegate {
 
     func configPlates(plates: [Int]){
         //        [fortFivePlates,thirtFivePlates,twentyFivePlates,tenPlates,fivePlates]
-        var platesArray = [0,0,0,0,0,0,0,0,0,0,0,0]
+        var platesArray = [0,0,0,0,0,0]
         //1 is 45 
         //2 is 35
         //3 is 25
