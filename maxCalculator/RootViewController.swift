@@ -90,14 +90,16 @@ class RootViewController: UIViewController, UITextFieldDelegate {
 
         (fivePlates,fiveWeight) = self.fivePlates(tenWeight)
 
-        var thePlates = [fortFivePlates,thirtFivePlates,twentyFivePlates,tenPlates,fivePlates]
+        var thePlates = [fortFivePlates,thirtFivePlates,twentyFivePlates,tenPlates,fivePlates,0]
         configPlates(thePlates)
 
     }
 
-    func configPlates(plates: [Int]){
+
+
+    func configPlates(plates: [Int]) -> [Int]{
         //        [fortFivePlates,thirtFivePlates,twentyFivePlates,tenPlates,fivePlates]
-        var platesArray = [0,0,0,0,0,0]
+
         //1 is 45 
         //2 is 35
         //3 is 25
@@ -105,19 +107,51 @@ class RootViewController: UIViewController, UITextFieldDelegate {
         //5 is 5
 
         //if there are more than 12 45 plates make it so theres only 12 in the array
+        var thePlates = [0,0,0,0,0,0]
         if plates[0] > 12 {
-            for var i = 0; i < platesArray.count; i++ {
-                ++platesArray[i]
+            for var i = 0; i < thePlates.count; i++ {
+                thePlates[i] = 1
                 //return the array
+                return thePlates
             }
         }
-
-
-
-        for var i = 0; i < platesArray.count; i++ {
-            println(++platesArray[i])
+        var plateRefs = [Int]()
+        for var i = 0; i < thePlates.count; i++ {
+            if plates[i] == 2 && i == 0 {
+                plateRefs.append(1)
+            } else if plates[i] == 2 && i == 1 {
+                plateRefs.append(2)
+            } else if plates[i] == 2 && i == 2 {
+                plateRefs.append(3)
+            } else if plates[i] == 2 && i == 3 {
+                plateRefs.append(4)
+            } else if plates[i] == 2 && i == 4 {
+                plateRefs.append(5)
+            } else if plates[i] == 4 && i == 4 {
+                plateRefs.append(5)
+                plateRefs.append(5)
+            }else if plates[0] == 4 && i == 0 {
+                plateRefs.append(1)
+                plateRefs.append(1)
+            } else if plates[0] == 6 && i == 0 {
+                plateRefs.append(1)
+                plateRefs.append(1)
+                plateRefs.append(1)
+            } else if plates[0] == 8 && i == 0 {
+                plateRefs.append(1)
+                plateRefs.append(1)
+                plateRefs.append(1)
+                plateRefs.append(1)
+            } else if plates[0] == 10 && i == 0 {
+                plateRefs.append(1)
+                plateRefs.append(1)
+                plateRefs.append(1)
+                plateRefs.append(1)
+                plateRefs.append(1)
+            }
+            println(plateRefs)
         }
-
+        return [0,0]
     }
 
     func fortyFivePlates(max: Double) -> (Int,Int) {
