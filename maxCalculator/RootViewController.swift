@@ -69,15 +69,6 @@ class RootViewController: UIViewController, UITextFieldDelegate {
         var (fortFivePlates,thirtFivePlates,twentyFivePlates,tenPlates,fivePlates) = (0,0,0,0,0)
         var (fortyFiveWeight,thirtyFiveWeight,twentyFiveWeight,tenWeight,fiveWeight) = (0,0,0,0,0)
 
-        for var i = 0; i < plates.count; i++ {
-            plates[i].image = UIImage(named: "")
-        }
-        let fortfPlate = UIImage(named: "45plate")
-        let thirtfPlate = UIImage(named: "35plate")
-        let twofPlate = UIImage(named: "25plate")
-        let tenPlate = UIImage(named: "10plate")
-        let fivPlate = UIImage(named: "5plate")
-        let poonPlate = UIImage(named: "2.5plate")
         var plateWeight = Int(max) - 45
         // .0 is plates .1 is weight
         (fortFivePlates,fortyFiveWeight) = self.fortyFivePlates(max)
@@ -91,16 +82,53 @@ class RootViewController: UIViewController, UITextFieldDelegate {
         (fivePlates,fiveWeight) = self.fivePlates(tenWeight)
 
         var thePlates = [fortFivePlates,thirtFivePlates,twentyFivePlates,tenPlates,fivePlates,0]
-        configPlates(thePlates)
-
+        var passThis = configPlates(thePlates)
+        changePlates(passThis)
     }
 
+    func changePlates(thePlates: [Int]){
+
+        for var i = 0; i < self.plates.count; i++ {
+            self.plates[i].image = UIImage(named: "")
+        }
+        let fortfPlate = UIImage(named: "45plate")
+        let thirtfPlate = UIImage(named: "35plate")
+        let twofPlate = UIImage(named: "25plate")
+        let tenPlate = UIImage(named: "10plate")
+        let fivPlate = UIImage(named: "5plate")
+        let poonPlate = UIImage(named: "2.5plate")
+        println(thePlates)
+        println(self.plates.count)
+
+        var temp = thePlates
+        for var i = 0; i < thePlates.count; i++ {
+            temp.append(thePlates[i])
+        }
+        println(temp)
+        temp.sort({ (T: Int, P: Int) -> Bool in
+            return P > T
+        })
+
+        for var i = 0; i < temp.count; i++ {
+            if temp[i] == 1 {
+                self.plates[i].image = fortfPlate
+            } else if temp[i] == 2 {
+                self.plates[i].image = thirtfPlate
+            } else if temp[i] == 3 {
+                self.plates[i].image = twofPlate
+            } else if temp[i] == 4 {
+                self.plates[i].image = tenPlate
+            } else if temp[i] == 5{
+                self.plates[i].image = fivPlate
+            }
+        }
+    }
 
 
     func configPlates(plates: [Int]) -> [Int]{
         //        [fortFivePlates,thirtFivePlates,twentyFivePlates,tenPlates,fivePlates]
 
-        //1 is 45 
+        //1 is 45
         //2 is 35
         //3 is 25
         //4 is 10
@@ -116,6 +144,7 @@ class RootViewController: UIViewController, UITextFieldDelegate {
             }
         }
         var plateRefs = [Int]()
+        var returnThis = [Int]()
         for var i = 0; i < thePlates.count; i++ {
             if plates[i] == 2 && i == 0 {
                 plateRefs.append(1)
@@ -149,9 +178,11 @@ class RootViewController: UIViewController, UITextFieldDelegate {
                 plateRefs.append(1)
                 plateRefs.append(1)
             }
-            println(plateRefs)
+            returnThis = plateRefs
         }
-        return [0,0]
+        println(returnThis)
+        return returnThis
+
     }
 
     func fortyFivePlates(max: Double) -> (Int,Int) {
@@ -210,5 +241,5 @@ class RootViewController: UIViewController, UITextFieldDelegate {
         println("this is the remaining amount of weight \(remainder) \n\n")
         return (plates,remainder)
     }
-
+    
 }

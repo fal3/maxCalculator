@@ -70,5 +70,19 @@ for var i = 0; i < thePlates.count; i++ {
         plateRefs.append(1)
         plateRefs.append(1)
     }
+    println(plateRefs)
+    var temp = plateRefs
+    for var i = 0; i < plateRefs.count; i++ {
+       temp.append(plateRefs[i])
+    }
+    println(temp)
+    temp.sort({ (T: Int, P: Int) -> Bool in
+        return P > T
+    })
+    println(temp)
+
+//    temp.sort({ (a,b) -> Bool in
+//        println(temp)
+//    })
 }
 
