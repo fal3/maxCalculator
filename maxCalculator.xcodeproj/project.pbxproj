@@ -14,6 +14,7 @@
 		A20B92991B3A282900B436DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20B92981B3A282900B436DE /* Images.xcassets */; };
 		A20B929C1B3A282900B436DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20B929A1B3A282900B436DE /* LaunchScreen.xib */; };
 		A20B92A81B3A282900B436DE /* maxCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B92A71B3A282900B436DE /* maxCalculatorTests.m */; };
+		A2144E8A1B5C6A12006ACDCF /* arnold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2144E891B5C6A12006ACDCF /* arnold.jpg */; };
 		A220310A1B54350B0086F5F7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22031091B54350B0086F5F7 /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		A20B92A61B3A282900B436DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20B92A71B3A282900B436DE /* maxCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maxCalculatorTests.m; sourceTree = "<group>"; };
 		A2144E881B56E656006ACDCF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		A2144E891B5C6A12006ACDCF /* arnold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = arnold.jpg; path = ../../../../../Downloads/arnold.jpg; sourceTree = "<group>"; };
 		A22031081B54350A0086F5F7 /* maxCalculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maxCalculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		A22031091B54350B0086F5F7 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 				A20B92951B3A282900B436DE /* Main.storyboard */,
 				A22031091B54350B0086F5F7 /* RootViewController.swift */,
 				A20B92981B3A282900B436DE /* Images.xcassets */,
+				A2144E891B5C6A12006ACDCF /* arnold.jpg */,
 				A20B929A1B3A282900B436DE /* LaunchScreen.xib */,
 				A20B928F1B3A282900B436DE /* maxCalculator.xcdatamodeld */,
 				A20B92881B3A282900B436DE /* Supporting Files */,
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2144E8A1B5C6A12006ACDCF /* arnold.jpg in Resources */,
 				A20B92971B3A282900B436DE /* Main.storyboard in Resources */,
 				A20B929C1B3A282900B436DE /* LaunchScreen.xib in Resources */,
 				A20B92991B3A282900B436DE /* Images.xcassets in Resources */,
