@@ -70,7 +70,7 @@ for var i = 0; i < thePlates.count; i++ {
         plateRefs.append(1)
         plateRefs.append(1)
     }
-    println(plateRefs)
+    print(plateRefs)
     var temp = plateRefs
     for var i = 0; i < plateRefs.count; i++ {
        temp.append(plateRefs[i])

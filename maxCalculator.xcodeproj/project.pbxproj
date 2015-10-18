@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644FF6B4D76C3021C4C0ABC1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB726EAF2F60E4E288D3E07 /* libPods.a */; };
 		A202662F1B8291A80063342C /* rectangle@2x.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A202662E1B8291A80063342C /* rectangle@2x.pdf */; };
 		A20266451B82922A0063342C /* CONTRIBUTING.txt in Resources */ = {isa = PBXBuildFile; fileRef = A20266311B82922A0063342C /* CONTRIBUTING.txt */; };
 		A20266461B82922A0063342C /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = A20266321B82922A0063342C /* copyright.txt */; };
@@ -38,6 +39,7 @@
 		A20B92A81B3A282900B436DE /* maxCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B92A71B3A282900B436DE /* maxCalculatorTests.m */; };
 		A2144E8A1B5C6A12006ACDCF /* arnold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2144E891B5C6A12006ACDCF /* arnold.jpg */; };
 		A220310A1B54350B0086F5F7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22031091B54350B0086F5F7 /* RootViewController.swift */; };
+		A234BEB71BD43952002B58B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A234BEB61BD43952002B58B0 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091964A12E7AF85B041E2447 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8CB726EAF2F60E4E288D3E07 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A202662E1B8291A80063342C /* rectangle@2x.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "rectangle@2x.pdf"; sourceTree = "<group>"; };
 		A20266311B82922A0063342C /* CONTRIBUTING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTING.txt; sourceTree = "<group>"; };
 		A20266321B82922A0063342C /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyright.txt; sourceTree = "<group>"; };
@@ -89,7 +93,10 @@
 		A2144E891B5C6A12006ACDCF /* arnold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = arnold.jpg; path = ../../../../../Downloads/arnold.jpg; sourceTree = "<group>"; };
 		A22031081B54350A0086F5F7 /* maxCalculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maxCalculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		A22031091B54350B0086F5F7 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A234BEB51BD438A7002B58B0 /* maxCalculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maxCalculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		A234BEB61BD43952002B58B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A27853A11B79A96C00AA2578 /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		A995E18AFF6C675ECC499B22 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A234BEB71BD43952002B58B0 /* CoreLocation.framework in Frameworks */,
+				644FF6B4D76C3021C4C0ABC1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74931D9383A6EDD1E49C504B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				091964A12E7AF85B041E2447 /* Pods.debug.xcconfig */,
+				A995E18AFF6C675ECC499B22 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A20266301B82922A0063342C /* ubuntu-font-family-0.80 */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,10 +158,13 @@
 		A20B927C1B3A282900B436DE = {
 			isa = PBXGroup;
 			children = (
+				A234BEB51BD438A7002B58B0 /* maxCalculator-Bridging-Header.h */,
 				A2144E881B56E656006ACDCF /* MyPlayground.playground */,
 				A20B92871B3A282900B436DE /* maxCalculator */,
 				A20B92A41B3A282900B436DE /* maxCalculatorTests */,
 				A20B92861B3A282900B436DE /* Products */,
+				74931D9383A6EDD1E49C504B /* Pods */,
+				C4C2BCCBAEAE480F209B0EF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +224,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C4C2BCCBAEAE480F209B0EF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A234BEB61BD43952002B58B0 /* CoreLocation.framework */,
+				8CB726EAF2F60E4E288D3E07 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A20B92AB1B3A282900B436DE /* Build configuration list for PBXNativeTarget "maxCalculator" */;
 			buildPhases = (
+				3FC95D790AC1D096E4994AF1 /* Check Pods Manifest.lock */,
 				A20B92811B3A282900B436DE /* Sources */,
 				A20B92821B3A282900B436DE /* Frameworks */,
 				A20B92831B3A282900B436DE /* Resources */,
+				4F3B99A3F91E296F50D26453 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -322,6 +354,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FC95D790AC1D096E4994AF1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F3B99A3F91E296F50D26453 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A20B92811B3A282900B436DE /* Sources */ = {
@@ -456,9 +521,11 @@
 		};
 		A20B92AC1B3A282900B436DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091964A12E7AF85B041E2447 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = maxCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fallah.$(PRODUCT_NAME:rfc1034identifier)";
@@ -470,9 +537,11 @@
 		};
 		A20B92AD1B3A282900B436DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A995E18AFF6C675ECC499B22 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = maxCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fallah.$(PRODUCT_NAME:rfc1034identifier)";

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Localytics.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Localytics autoIntegrate:@"6ca4108676a5047196a9b30-c52ae292-75d7-11e5-786c-00736b041834" launchOptions:launchOptions];
+    
     return YES;
 }
 
