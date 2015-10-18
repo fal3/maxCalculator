@@ -34,15 +34,15 @@ class RootViewController: UIViewController, UITextFieldDelegate {
         var reps: Double
         var weight: Double
 
-        weight = (weightTextField.text as NSString).doubleValue
-        reps = (repsTextField.text as NSString).doubleValue
+        weight = (weightTextField.text! as NSString).doubleValue
+        reps = (repsTextField.text! as NSString).doubleValue
 
         let max = weight * (1 + (reps/30))
         fillPlates(max)
         return (NSString(format: "%.2f", max)) as String
     }
     func textFieldDidBeginEditing(textField: UITextField) {
-        println("hello")
+        print("hello")
         self.maxLabel.text = calculateMax()
     }
 
@@ -81,46 +81,56 @@ class RootViewController: UIViewController, UITextFieldDelegate {
 
         (fivePlates,fiveWeight) = self.fivePlates(tenWeight)
 
-        var thePlates = [fortFivePlates,thirtFivePlates,twentyFivePlates,tenPlates,fivePlates,0]
-        var passThis = configPlates(thePlates)
+        let thePlates = [fortFivePlates,thirtFivePlates,twentyFivePlates,tenPlates,fivePlates,0]
+        let passThis = configPlates(thePlates)
+
         changePlates(passThis)
     }
 
-    func changePlates(thePlates: [Int]){
+    func changePlates(thePlates: [Int]) {
 
-        for var i = 0; i < self.plates.count; i++ {
-            self.plates[i].image = UIImage(named: "")
-        }
         let fortfPlate = UIImage(named: "45plate")
         let thirtfPlate = UIImage(named: "35plate")
         let twofPlate = UIImage(named: "25plate")
         let tenPlate = UIImage(named: "10plate")
         let fivPlate = UIImage(named: "5plate")
         let poonPlate = UIImage(named: "2.5plate")
-        println(thePlates)
-        println(self.plates.count)
 
-        var temp = thePlates
-        for var i = 0; i < thePlates.count; i++ {
-            temp.append(thePlates[i])
-        }
-        println(temp)
-        temp.sort({ (T: Int, P: Int) -> Bool in
-            return P > T
-        })
-
-        for var i = 0; i < temp.count; i++ {
-            if temp[i] == 1 {
-                self.plates[i].image = fortfPlate
-            } else if temp[i] == 2 {
-                self.plates[i].image = thirtfPlate
-            } else if temp[i] == 3 {
-                self.plates[i].image = twofPlate
-            } else if temp[i] == 4 {
-                self.plates[i].image = tenPlate
-            } else if temp[i] == 5{
-                self.plates[i].image = fivPlate
+        if thePlates != [1, 0, 0, 0, 0, 0] {
+            for var i = 0; i < self.plates.count; i++ {
+                self.plates[i].image = UIImage(named: "")
             }
+
+                      print(thePlates)
+            print(self.plates.count)
+
+            var temp = thePlates
+            for var i = 0; i < thePlates.count; i++ {
+                temp.append(thePlates[i])
+            }
+            print(temp)
+            temp.sortInPlace({ (T: Int, P: Int) -> Bool in
+                return P > T
+            })
+
+            for var i = 0; i < temp.count; i++ {
+                if temp[i] == 1 {
+                    self.plates[i].image = fortfPlate
+                } else if temp[i] == 2 {
+                    self.plates[i].image = thirtfPlate
+                } else if temp[i] == 3 {
+                    self.plates[i].image = twofPlate
+                } else if temp[i] == 4 {
+                    self.plates[i].image = tenPlate
+                } else if temp[i] == 5{
+                    self.plates[i].image = fivPlate
+                }
+            }
+        } else {
+            for var i = 0; i < 12; i++ {
+                self.plates[i].image = fortfPlate
+            }
+            return
         }
     }
 
@@ -133,7 +143,7 @@ class RootViewController: UIViewController, UITextFieldDelegate {
         //3 is 25
         //4 is 10
         //5 is 5
-
+        print("these are the fucking plates \(plates) " )
         //if there are more than 12 45 plates make it so theres only 12 in the array
         var thePlates = [0,0,0,0,0,0]
         if plates[0] > 12 {
@@ -180,65 +190,66 @@ class RootViewController: UIViewController, UITextFieldDelegate {
             }
             returnThis = plateRefs
         }
-        println(returnThis)
+
+        print( "okay so you dont want to return this \(returnThis)")
         return returnThis
 
     }
 
     func fortyFivePlates(max: Double) -> (Int,Int) {
-        var plateWeight = Int(max) - 45
+        let plateWeight = Int(max) - 45
 
         var plates = plateWeight/45
         if plates % 2 == 1 {
             plates -= 1
         }
-        println("this is how many 45s there will be \(plates)")
+        print("this is how many 45s there will be \(plates)")
         let remainder = plateWeight - (45 * plates)
         return (plates,remainder)
     }
 
     func thirtyFivePlates(weight: Int) -> (Int,Int) {
-        var plateWeight = Int(weight)
+        let plateWeight = Int(weight)
         var plates = plateWeight/35
         if plates % 2 == 1 {
             plates -= 1
         }
-        println("this is how many 35s there will be \(plates)")
+        print("this is how many 35s there will be \(plates)")
         let remainder = plateWeight - (35 * plates)
         return (plates,remainder)
     }
 
     func twentyFivePlates(weight: Int) -> (Int,Int) {
-        var plateWeight = Int(weight)
+        let plateWeight = Int(weight)
         var plates = plateWeight/25
         if plates % 2 == 1 {
             plates -= 1
         }
-        println("this is how many 25s there will be \(plates)")
+        print("this is how many 25s there will be \(plates)")
         let remainder = plateWeight - (25 * plates)
         return (plates,remainder)
     }
 
     func tenPlates(weight: Int) -> (Int,Int) {
-        var plateWeight = Int(weight)
+        let plateWeight = Int(weight)
         var plates = plateWeight/10
         if plates % 2 == 1 {
             plates -= 1
         }
-        println("this is how many 10s there will be \(plates)")
+        print("this is how many 10s there will be \(plates)")
         let remainder = plateWeight - (10 * plates)
         return (plates,remainder)
     }
 
     func fivePlates(weight: Int) -> (Int,Int) {
-        var plateWeight = Int(weight)
+        let plateWeight = Int(weight)
         var plates = plateWeight/5
         if plates % 2 == 1 {
             plates -= 1
         }
-        println("this is how many 5s there will be \(plates)")
+        print("this is how many 5s there will be \(plates)")
         let remainder = plateWeight - (10 * plates)
-        println("this is the remaining amount of weight \(remainder) \n\n")
+        print("this is the remaining amount of weight \(remainder) \n\n")
         return (plates,remainder)
     }
     

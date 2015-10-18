@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A202662F1B8291A80063342C /* rectangle@2x.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A202662E1B8291A80063342C /* rectangle@2x.pdf */; };
+		A20266451B82922A0063342C /* CONTRIBUTING.txt in Resources */ = {isa = PBXBuildFile; fileRef = A20266311B82922A0063342C /* CONTRIBUTING.txt */; };
+		A20266461B82922A0063342C /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = A20266321B82922A0063342C /* copyright.txt */; };
+		A20266471B82922A0063342C /* FONTLOG.txt in Resources */ = {isa = PBXBuildFile; fileRef = A20266331B82922A0063342C /* FONTLOG.txt */; };
+		A20266481B82922A0063342C /* LICENCE-FAQ.txt in Resources */ = {isa = PBXBuildFile; fileRef = A20266341B82922A0063342C /* LICENCE-FAQ.txt */; };
+		A20266491B82922A0063342C /* LICENCE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A20266351B82922A0063342C /* LICENCE.txt */; };
+		A202664A1B82922A0063342C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A20266361B82922A0063342C /* README.txt */; };
+		A202664B1B82922A0063342C /* TRADEMARKS.txt in Resources */ = {isa = PBXBuildFile; fileRef = A20266371B82922A0063342C /* TRADEMARKS.txt */; };
+		A202664C1B82922A0063342C /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20266381B82922A0063342C /* Ubuntu-B.ttf */; };
+		A202664D1B82922A0063342C /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20266391B82922A0063342C /* Ubuntu-BI.ttf */; };
+		A202664E1B82922A0063342C /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A202663A1B82922A0063342C /* Ubuntu-C.ttf */; };
+		A202664F1B82922A0063342C /* Ubuntu-L.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A202663B1B82922A0063342C /* Ubuntu-L.ttf */; };
+		A20266501B82922A0063342C /* Ubuntu-LI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A202663C1B82922A0063342C /* Ubuntu-LI.ttf */; };
+		A20266511B82922A0063342C /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A202663D1B82922A0063342C /* Ubuntu-M.ttf */; };
+		A20266521B82922A0063342C /* Ubuntu-MI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A202663E1B82922A0063342C /* Ubuntu-MI.ttf */; };
+		A20266531B82922A0063342C /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A202663F1B82922A0063342C /* Ubuntu-R.ttf */; };
+		A20266541B82922A0063342C /* Ubuntu-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20266401B82922A0063342C /* Ubuntu-RI.ttf */; };
+		A20266551B82922A0063342C /* UbuntuMono-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20266411B82922A0063342C /* UbuntuMono-B.ttf */; };
+		A20266561B82922A0063342C /* UbuntuMono-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20266421B82922A0063342C /* UbuntuMono-BI.ttf */; };
+		A20266571B82922A0063342C /* UbuntuMono-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20266431B82922A0063342C /* UbuntuMono-R.ttf */; };
+		A20266581B82922A0063342C /* UbuntuMono-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20266441B82922A0063342C /* UbuntuMono-RI.ttf */; };
+		A202665A1B8294680063342C /* 1RepMax@2x.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20266591B8294680063342C /* 1RepMax@2x.pdf */; };
 		A20B928B1B3A282900B436DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B928A1B3A282900B436DE /* main.m */; };
 		A20B928E1B3A282900B436DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B928D1B3A282900B436DE /* AppDelegate.m */; };
 		A20B92911B3A282900B436DE /* maxCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A20B928F1B3A282900B436DE /* maxCalculator.xcdatamodeld */; };
@@ -29,6 +51,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A202662E1B8291A80063342C /* rectangle@2x.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "rectangle@2x.pdf"; sourceTree = "<group>"; };
+		A20266311B82922A0063342C /* CONTRIBUTING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTING.txt; sourceTree = "<group>"; };
+		A20266321B82922A0063342C /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyright.txt; sourceTree = "<group>"; };
+		A20266331B82922A0063342C /* FONTLOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FONTLOG.txt; sourceTree = "<group>"; };
+		A20266341B82922A0063342C /* LICENCE-FAQ.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENCE-FAQ.txt"; sourceTree = "<group>"; };
+		A20266351B82922A0063342C /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.txt; sourceTree = "<group>"; };
+		A20266361B82922A0063342C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		A20266371B82922A0063342C /* TRADEMARKS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TRADEMARKS.txt; sourceTree = "<group>"; };
+		A20266381B82922A0063342C /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		A20266391B82922A0063342C /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BI.ttf"; sourceTree = "<group>"; };
+		A202663A1B82922A0063342C /* Ubuntu-C.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-C.ttf"; sourceTree = "<group>"; };
+		A202663B1B82922A0063342C /* Ubuntu-L.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-L.ttf"; sourceTree = "<group>"; };
+		A202663C1B82922A0063342C /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LI.ttf"; sourceTree = "<group>"; };
+		A202663D1B82922A0063342C /* Ubuntu-M.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		A202663E1B82922A0063342C /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MI.ttf"; sourceTree = "<group>"; };
+		A202663F1B82922A0063342C /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		A20266401B82922A0063342C /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-RI.ttf"; sourceTree = "<group>"; };
+		A20266411B82922A0063342C /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-B.ttf"; sourceTree = "<group>"; };
+		A20266421B82922A0063342C /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
+		A20266431B82922A0063342C /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-R.ttf"; sourceTree = "<group>"; };
+		A20266441B82922A0063342C /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
+		A20266591B8294680063342C /* 1RepMax@2x.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "1RepMax@2x.pdf"; sourceTree = "<group>"; };
 		A20B92851B3A282900B436DE /* maxCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maxCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20B92891B3A282900B436DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20B928A1B3A282900B436DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +89,7 @@
 		A2144E891B5C6A12006ACDCF /* arnold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = arnold.jpg; path = ../../../../../Downloads/arnold.jpg; sourceTree = "<group>"; };
 		A22031081B54350A0086F5F7 /* maxCalculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maxCalculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		A22031091B54350B0086F5F7 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A27853A11B79A96C00AA2578 /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +110,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A20266301B82922A0063342C /* ubuntu-font-family-0.80 */ = {
+			isa = PBXGroup;
+			children = (
+				A20266311B82922A0063342C /* CONTRIBUTING.txt */,
+				A20266321B82922A0063342C /* copyright.txt */,
+				A20266331B82922A0063342C /* FONTLOG.txt */,
+				A20266341B82922A0063342C /* LICENCE-FAQ.txt */,
+				A20266351B82922A0063342C /* LICENCE.txt */,
+				A20266361B82922A0063342C /* README.txt */,
+				A20266371B82922A0063342C /* TRADEMARKS.txt */,
+				A20266381B82922A0063342C /* Ubuntu-B.ttf */,
+				A20266391B82922A0063342C /* Ubuntu-BI.ttf */,
+				A202663A1B82922A0063342C /* Ubuntu-C.ttf */,
+				A202663B1B82922A0063342C /* Ubuntu-L.ttf */,
+				A202663C1B82922A0063342C /* Ubuntu-LI.ttf */,
+				A202663D1B82922A0063342C /* Ubuntu-M.ttf */,
+				A202663E1B82922A0063342C /* Ubuntu-MI.ttf */,
+				A202663F1B82922A0063342C /* Ubuntu-R.ttf */,
+				A20266401B82922A0063342C /* Ubuntu-RI.ttf */,
+				A20266411B82922A0063342C /* UbuntuMono-B.ttf */,
+				A20266421B82922A0063342C /* UbuntuMono-BI.ttf */,
+				A20266431B82922A0063342C /* UbuntuMono-R.ttf */,
+				A20266441B82922A0063342C /* UbuntuMono-RI.ttf */,
+			);
+			path = "ubuntu-font-family-0.80";
+			sourceTree = "<group>";
+		};
 		A20B927C1B3A282900B436DE = {
 			isa = PBXGroup;
 			children = (
@@ -92,9 +164,13 @@
 				A20B92951B3A282900B436DE /* Main.storyboard */,
 				A22031091B54350B0086F5F7 /* RootViewController.swift */,
 				A20B92981B3A282900B436DE /* Images.xcassets */,
+				A20266591B8294680063342C /* 1RepMax@2x.pdf */,
+				A27853A11B79A96C00AA2578 /* SF-UI-Display-Regular.otf */,
 				A2144E891B5C6A12006ACDCF /* arnold.jpg */,
 				A20B929A1B3A282900B436DE /* LaunchScreen.xib */,
 				A20B928F1B3A282900B436DE /* maxCalculator.xcdatamodeld */,
+				A202662E1B8291A80063342C /* rectangle@2x.pdf */,
+				A20266301B82922A0063342C /* ubuntu-font-family-0.80 */,
 				A20B92881B3A282900B436DE /* Supporting Files */,
 				A22031081B54350A0086F5F7 /* maxCalculator-Bridging-Header.h */,
 			);
@@ -171,7 +247,9 @@
 		A20B927D1B3A282900B436DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "alex fallah";
 				TargetAttributes = {
 					A20B92841B3A282900B436DE = {
@@ -207,10 +285,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20266491B82922A0063342C /* LICENCE.txt in Resources */,
+				A20266451B82922A0063342C /* CONTRIBUTING.txt in Resources */,
+				A202664A1B82922A0063342C /* README.txt in Resources */,
 				A2144E8A1B5C6A12006ACDCF /* arnold.jpg in Resources */,
+				A202664F1B82922A0063342C /* Ubuntu-L.ttf in Resources */,
+				A20266481B82922A0063342C /* LICENCE-FAQ.txt in Resources */,
+				A202665A1B8294680063342C /* 1RepMax@2x.pdf in Resources */,
+				A20266531B82922A0063342C /* Ubuntu-R.ttf in Resources */,
+				A20266551B82922A0063342C /* UbuntuMono-B.ttf in Resources */,
+				A20266471B82922A0063342C /* FONTLOG.txt in Resources */,
+				A202664E1B82922A0063342C /* Ubuntu-C.ttf in Resources */,
+				A20266521B82922A0063342C /* Ubuntu-MI.ttf in Resources */,
+				A202664B1B82922A0063342C /* TRADEMARKS.txt in Resources */,
+				A20266461B82922A0063342C /* copyright.txt in Resources */,
+				A202664D1B82922A0063342C /* Ubuntu-BI.ttf in Resources */,
+				A20266581B82922A0063342C /* UbuntuMono-RI.ttf in Resources */,
+				A202664C1B82922A0063342C /* Ubuntu-B.ttf in Resources */,
+				A20266561B82922A0063342C /* UbuntuMono-BI.ttf in Resources */,
 				A20B92971B3A282900B436DE /* Main.storyboard in Resources */,
 				A20B929C1B3A282900B436DE /* LaunchScreen.xib in Resources */,
 				A20B92991B3A282900B436DE /* Images.xcassets in Resources */,
+				A20266511B82922A0063342C /* Ubuntu-M.ttf in Resources */,
+				A20266541B82922A0063342C /* Ubuntu-RI.ttf in Resources */,
+				A202662F1B8291A80063342C /* rectangle@2x.pdf in Resources */,
+				A20266501B82922A0063342C /* Ubuntu-LI.ttf in Resources */,
+				A20266571B82922A0063342C /* UbuntuMono-R.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +394,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -360,6 +461,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = maxCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fallah.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "maxCalculator/maxCalculator-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -373,6 +475,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = maxCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fallah.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "maxCalculator/maxCalculator-Bridging-Header.h";
 			};
@@ -392,6 +495,7 @@
 				);
 				INFOPLIST_FILE = maxCalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fallah.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maxCalculator.app/maxCalculator";
 			};
@@ -407,6 +511,7 @@
 				);
 				INFOPLIST_FILE = maxCalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fallah.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maxCalculator.app/maxCalculator";
 			};
