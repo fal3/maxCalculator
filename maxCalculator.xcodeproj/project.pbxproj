@@ -37,7 +37,6 @@
 		A20B92991B3A282900B436DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20B92981B3A282900B436DE /* Images.xcassets */; };
 		A20B929C1B3A282900B436DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20B929A1B3A282900B436DE /* LaunchScreen.xib */; };
 		A20B92A81B3A282900B436DE /* maxCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B92A71B3A282900B436DE /* maxCalculatorTests.m */; };
-		A2144E8A1B5C6A12006ACDCF /* arnold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2144E891B5C6A12006ACDCF /* arnold.jpg */; };
 		A220310A1B54350B0086F5F7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22031091B54350B0086F5F7 /* RootViewController.swift */; };
 		A234BEB71BD43952002B58B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A234BEB61BD43952002B58B0 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
@@ -90,7 +89,6 @@
 		A20B92A61B3A282900B436DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20B92A71B3A282900B436DE /* maxCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maxCalculatorTests.m; sourceTree = "<group>"; };
 		A2144E881B56E656006ACDCF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
-		A2144E891B5C6A12006ACDCF /* arnold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = arnold.jpg; path = ../../../../../Downloads/arnold.jpg; sourceTree = "<group>"; };
 		A22031081B54350A0086F5F7 /* maxCalculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maxCalculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		A22031091B54350B0086F5F7 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		A234BEB51BD438A7002B58B0 /* maxCalculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maxCalculator-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -187,7 +185,6 @@
 				A20B92981B3A282900B436DE /* Images.xcassets */,
 				A20266591B8294680063342C /* 1RepMax@2x.pdf */,
 				A27853A11B79A96C00AA2578 /* SF-UI-Display-Regular.otf */,
-				A2144E891B5C6A12006ACDCF /* arnold.jpg */,
 				A20B929A1B3A282900B436DE /* LaunchScreen.xib */,
 				A20B928F1B3A282900B436DE /* maxCalculator.xcdatamodeld */,
 				A202662E1B8291A80063342C /* rectangle@2x.pdf */,
@@ -320,7 +317,6 @@
 				A20266491B82922A0063342C /* LICENCE.txt in Resources */,
 				A20266451B82922A0063342C /* CONTRIBUTING.txt in Resources */,
 				A202664A1B82922A0063342C /* README.txt in Resources */,
-				A2144E8A1B5C6A12006ACDCF /* arnold.jpg in Resources */,
 				A202664F1B82922A0063342C /* Ubuntu-L.ttf in Resources */,
 				A20266481B82922A0063342C /* LICENCE-FAQ.txt in Resources */,
 				A202665A1B8294680063342C /* 1RepMax@2x.pdf in Resources */,

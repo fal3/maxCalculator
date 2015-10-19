@@ -91,12 +91,12 @@ class RootViewController: UIViewController, UITextFieldDelegate {
 
     func changePlates(thePlates: [Int]) {
 
-        let fortfPlate = UIImage(named: "45plate")
-        let thirtfPlate = UIImage(named: "35plate")
-        let twofPlate = UIImage(named: "25plate")
-        let tenPlate = UIImage(named: "10plate")
-        let fivPlate = UIImage(named: "5plate")
-        let poonPlate = UIImage(named: "2.5plate")
+        let fortfPlate = UIImage(named: "45Plate")
+        let thirtfPlate = UIImage(named: "35Plate")
+        let twofPlate = UIImage(named: "25Plate")
+        let tenPlate = UIImage(named: "10Plate")
+        let fivPlate = UIImage(named: "5Plate")
+//        let poonPlate = UIImage(named: "2.5plate")
 
         if thePlates != [1, 0, 0, 0, 0, 0] {
             for var i = 0; i < self.plates.count; i++ {
