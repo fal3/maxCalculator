@@ -23,11 +23,21 @@ class RootViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var maxLabel: UILabel!
 
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        weightTextField.becomeFirstResponder()
+   
+        
 
     }
+
+//    _textField.layer.shadowOpacity = 1.0;
+//    _textField.layer.shadowRadius = 0.0;
+//    _textField.layer.shadowColor = [UIColor blackColor].CGColor;
+//    _textField.layer.shadowOffset = CGSizeMake(0.0, -1.0);
 
     func calculateMax() -> String
     {
