@@ -39,6 +39,7 @@
 		A20B92A81B3A282900B436DE /* maxCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B92A71B3A282900B436DE /* maxCalculatorTests.m */; };
 		A220310A1B54350B0086F5F7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22031091B54350B0086F5F7 /* RootViewController.swift */; };
 		A234BEB71BD43952002B58B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A234BEB61BD43952002B58B0 /* CoreLocation.framework */; };
+		A2E329441BD9395D00B9224D /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E329431BD9395D00B9224D /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		A234BEB51BD438A7002B58B0 /* maxCalculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maxCalculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		A234BEB61BD43952002B58B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A27853A11B79A96C00AA2578 /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		A2E329431BD9395D00B9224D /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		A995E18AFF6C675ECC499B22 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,6 +193,7 @@
 				A20266301B82922A0063342C /* ubuntu-font-family-0.80 */,
 				A20B92881B3A282900B436DE /* Supporting Files */,
 				A22031081B54350A0086F5F7 /* maxCalculator-Bridging-Header.h */,
+				A2E329431BD9395D00B9224D /* Images-2.xcassets */,
 			);
 			path = maxCalculator;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				A202664B1B82922A0063342C /* TRADEMARKS.txt in Resources */,
 				A20266461B82922A0063342C /* copyright.txt in Resources */,
 				A202664D1B82922A0063342C /* Ubuntu-BI.ttf in Resources */,
+				A2E329441BD9395D00B9224D /* Images-2.xcassets in Resources */,
 				A20266581B82922A0063342C /* UbuntuMono-RI.ttf in Resources */,
 				A202664C1B82922A0063342C /* Ubuntu-B.ttf in Resources */,
 				A20266561B82922A0063342C /* UbuntuMono-BI.ttf in Resources */,
@@ -520,6 +524,7 @@
 			baseConfigurationReference = 091964A12E7AF85B041E2447 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = maxCalculator/Info.plist;
@@ -536,6 +541,7 @@
 			baseConfigurationReference = A995E18AFF6C675ECC499B22 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = maxCalculator/Info.plist;
