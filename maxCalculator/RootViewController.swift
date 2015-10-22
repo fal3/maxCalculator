@@ -28,6 +28,21 @@ class RootViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        weightTextField.layer.cornerRadius = 5.0
+        weightTextField.layer.borderColor = UIColor.grayColor().CGColor
+        weightTextField.layer.borderWidth = 2.0
+
+        repsTextField.layer.cornerRadius = 5.0
+        repsTextField.layer.borderColor = UIColor.grayColor().CGColor
+        repsTextField.layer.borderWidth = 2.0
+
+//        self.layer.cornerRadius = 5.0;
+//
+//        NowÂ change the border color and border width with help of following 2 lines:
+//
+//        self.layer.borderColor = UIColor.grayColor().CGColor
+//        
+//        self.layer.borderWidth = 1.5
         weightTextField.becomeFirstResponder()
    
         
