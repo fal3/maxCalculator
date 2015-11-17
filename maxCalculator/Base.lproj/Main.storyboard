@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9052" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9527.1" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9525.1"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -127,6 +127,7 @@
                                     <constraint firstAttribute="width" constant="66" id="K7Y-ob-OD1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN-Bold" family="Devanagari Sangam MN" pointSize="18"/>
+                                <color key="textColor" red="0.91764705882352937" green="0.63529411764705879" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ERx-oG-4bC">
@@ -138,8 +139,12 @@
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="iLb-Jr-6EF"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Weight lifted (LBs):" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ce1-Dl-d2m">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight lifted (LBs):" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ce1-Dl-d2m">
                                 <rect key="frame" x="93" y="312" width="163" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="163" id="BZm-OM-XQa"/>
+                                    <constraint firstAttribute="height" constant="50" id="SIJ-UW-Fed"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -158,6 +163,10 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F26-JW-FUW">
                                 <rect key="frame" x="255" y="375" width="163" height="30"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Zv0-vN-BQ7"/>
+                                    <constraint firstAttribute="width" constant="163" id="vAV-vj-Zvj"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
@@ -165,7 +174,11 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reps:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAh-B1-zyD">
-                                <rect key="frame" x="176" y="379" width="55" height="21"/>
+                                <rect key="frame" x="179" y="379" width="55" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Emd-Ic-uOx"/>
+                                    <constraint firstAttribute="width" constant="55" id="P67-QM-FYh"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -174,7 +187,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="7Xc-ko-5rn" firstAttribute="centerY" secondItem="ERx-oG-4bC" secondAttribute="centerY" id="0uS-0c-gK9"/>
-                            <constraint firstItem="F26-JW-FUW" firstAttribute="leading" secondItem="EAh-B1-zyD" secondAttribute="trailing" constant="24" id="3CC-CY-0VB"/>
+                            <constraint firstItem="F26-JW-FUW" firstAttribute="leading" secondItem="EAh-B1-zyD" secondAttribute="trailing" constant="21" id="3CC-CY-0VB"/>
                             <constraint firstItem="3qU-eg-mxL" firstAttribute="leading" secondItem="0y1-Qg-Nga" secondAttribute="trailing" constant="9" id="3gb-aA-3oq"/>
                             <constraint firstItem="if2-nY-4gd" firstAttribute="leading" secondItem="Ose-Th-lFi" secondAttribute="trailing" constant="8" symbolic="YES" id="3pN-gP-0Gv"/>
                             <constraint firstItem="aZR-ZE-BoT" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="4TL-1c-cOp"/>
@@ -214,7 +227,7 @@
                             <constraint firstItem="AOg-eJ-kxg" firstAttribute="bottom" secondItem="0y1-Qg-Nga" secondAttribute="bottom" id="ZBT-uC-Ri7"/>
                             <constraint firstItem="Ose-Th-lFi" firstAttribute="top" secondItem="if2-nY-4gd" secondAttribute="top" id="ZQc-CN-zh4"/>
                             <constraint firstItem="vHX-Bq-usm" firstAttribute="leading" secondItem="38x-Ff-H2v" secondAttribute="trailing" constant="8" id="Zea-6H-xIb"/>
-                            <constraint firstItem="ce1-Dl-d2m" firstAttribute="trailing" secondItem="EAh-B1-zyD" secondAttribute="trailing" constant="25" id="Zqt-MI-Ih9"/>
+                            <constraint firstItem="ce1-Dl-d2m" firstAttribute="trailing" secondItem="EAh-B1-zyD" secondAttribute="trailing" constant="22" id="Zqt-MI-Ih9"/>
                             <constraint firstItem="v9L-Kq-WA3" firstAttribute="baseline" secondItem="ERx-oG-4bC" secondAttribute="baseline" id="aFb-nx-RZW"/>
                             <constraint firstItem="EAh-B1-zyD" firstAttribute="top" secondItem="ce1-Dl-d2m" secondAttribute="bottom" constant="17" id="bws-9S-uxO"/>
                             <constraint firstItem="vHX-Bq-usm" firstAttribute="bottom" secondItem="AOg-eJ-kxg" secondAttribute="bottom" id="bzW-BP-lxJ"/>
@@ -223,7 +236,7 @@
                             <constraint firstItem="vdf-tS-shi" firstAttribute="bottom" secondItem="38x-Ff-H2v" secondAttribute="bottom" id="g8j-wT-LTn"/>
                             <constraint firstItem="uCW-PO-EXl" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="gDi-ZJ-TM0"/>
                             <constraint firstItem="AOg-eJ-kxg" firstAttribute="top" secondItem="0y1-Qg-Nga" secondAttribute="top" id="gUE-7Q-4hs"/>
-                            <constraint firstItem="EAh-B1-zyD" firstAttribute="leading" secondItem="she-ve-TsJ" secondAttribute="leading" constant="33" id="hpF-yz-xEi"/>
+                            <constraint firstItem="EAh-B1-zyD" firstAttribute="leading" secondItem="she-ve-TsJ" secondAttribute="leading" constant="36" id="hpF-yz-xEi"/>
                             <constraint firstItem="v9L-Kq-WA3" firstAttribute="leading" secondItem="ERx-oG-4bC" secondAttribute="trailing" constant="8" symbolic="YES" id="imN-ev-trT"/>
                             <constraint firstItem="0y1-Qg-Nga" firstAttribute="centerY" secondItem="691-Xc-Pob" secondAttribute="centerY" id="jXj-6j-eId"/>
                             <constraint firstItem="Ose-Th-lFi" firstAttribute="bottom" secondItem="if2-nY-4gd" secondAttribute="bottom" id="jtK-Us-GQi"/>
